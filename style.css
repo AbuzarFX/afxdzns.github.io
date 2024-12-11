@@ -2,6 +2,10 @@ html {
     scroll-behavior:smooth; /* Enables smooth scrolling */
   }
 
+a {
+            cursor: url('./Bigger.svg'), auto; 
+            text-decoration: none; 
+        }
 
 
 ::-webkit-scrollbar {
