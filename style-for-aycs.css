@@ -3,10 +3,21 @@ html {
 }
 
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 a {
-            cursor: url('./Bigger.svg'), auto; 
-            text-decoration: none; 
-        }
+  cursor: url('./Bigger.svg'), auto; 
+  text-decoration: none; 
+}
+
 
 ::-webkit-scrollbar {
   width: 20px;
